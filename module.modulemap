@@ -1,6 +1,5 @@
 module Clibdbus [system] {
   header "/usr/local/include/dbus-1.0/dbus/dbus.h"
-  header "/usr/local/lib/dbus-1.0/include/dbus/dbus-arch-deps.h"
   link "dbus-1"
   export *
 }
