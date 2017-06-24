@@ -3,5 +3,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "Clibdbus"
+    name: "Clibdbus",
+    pkgConfig: "dbus-1"
 )
